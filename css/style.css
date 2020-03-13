@@ -1818,7 +1818,7 @@ body {
 .courses_details_banner {
   background-image: url(../img/banner/bradcam2.png);
   padding-top: 148px;
-  padding-bottom: 186px;
+  padding-bottom: 40px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -1868,6 +1868,9 @@ body {
     padding-left: 14px;
     font-weight: 400;
     font-family: "Poppins", sans-serif; }
+
+[data-toggle=collapse] {
+  width: 100px !important; }
 
 .courses_details_info {
   padding-top: 100px;
