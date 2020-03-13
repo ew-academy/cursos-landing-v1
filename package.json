@@ -1,0 +1,25 @@
+{
+  "name": "cursos-web",
+  "version": "1.0.0",
+  "description": "Thank you for using our template!",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/training-erickwendel/cursos-landing-v1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/training-erickwendel/cursos-landing-v1/issues"
+  },
+  "homepage": "https://github.com/training-erickwendel/cursos-landing-v1#readme"
+}
