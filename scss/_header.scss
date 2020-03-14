@@ -191,7 +191,7 @@
             }
         }
         &.sticky {
-            box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+            // box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
             position: fixed;
             width: 100%;
             top: -70px;
@@ -199,11 +199,11 @@
             right: 0;
             z-index: 999;
             transform: translateY(70px);
-            transition: transform 500ms ease, background 500ms ease;
-            -webkit-transition: transform 500ms ease, background 500ms ease;
+            // transition: transform 500ms ease, background 500ms ease;
+            // -webkit-transition: transform 500ms ease, background 500ms ease;
             box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
             padding: 0px 150px;
-            @extend %gradient_bg_2;
+            @extend %gradient_bg_3;
             @media #{$mobile_device} {
                 padding: 10px 10px;
             }
