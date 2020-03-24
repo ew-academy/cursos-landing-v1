@@ -1,11 +1,7 @@
-body{
-    font-size: 1.4em;
-}
-
 .courses_details_banner{
-    background-image: url(../img/banner/banner2.png);
-    padding-top: 148px;
-    padding-bottom: 40px;
+    background-image: url(../img/banner/bradcam2.png);
+    padding-top: 286px;
+    padding-bottom: 186px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -74,10 +70,6 @@ body{
         }
     }
 }
-[data-toggle=collapse]  {
-    // white-space: normal!important;
-    width: 100px!important;
-}
 
 // courses_details_info start
 .courses_details_info{
@@ -86,7 +78,6 @@ body{
     @media #{$mobile_device} {
         padding: 50px 0 50px 0;
     }
-  
     .single_courses{
         h3{
             font-size: 36px;
@@ -102,7 +93,6 @@ body{
             line-height: 21px;
             margin-bottom: 0;
         }
-        
     }
     .courses_sidebar{
         position: relative;
