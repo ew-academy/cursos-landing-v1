@@ -2,7 +2,7 @@
     padding-top: 200px;
     padding-bottom: 170px;
     @media #{$mobile_device} {
-        padding-top: 50px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
     @media #{$tablet_device} {
@@ -28,7 +28,7 @@
             &.blue{
                 
                 i{
-                    color: #04D2C8 !important;
+                    color: #00D135!important;
                 }
             }
             &.gradient{

@@ -27,7 +27,7 @@
     }
 }
 .boxed-btn3 {
-	background: $theme-color4;;
+	background: $theme-color4;
 	color: #fff;
 	display: inline-block;
 	padding: 12px 27px;
@@ -115,16 +115,16 @@
 	font-size: 16px;
 	color: #fff;
 	padding: 17px 50px;
-    background: #04D2C8;
+    background: #00D135;
     @include border-radius(30px);
     border: 1px solid transparent;
     display: inline-block;
     @include transition(.3s);
     &:hover{
         background: transparent ;
-        color: #04D2C8;
-        border: 1px solid #04D2C8;
-        color: #04D2C8 !important;
+        color: #00D135;
+        border: 1px solid #00D135;
+        color: #00D135 !important;
     }
 }
 .boxed_btn_rev {
@@ -133,15 +133,15 @@
 	color: #fff;
     padding: 17px 50px;
     background: transparent ;
-    color: #04D2C8;
-    border: 1px solid #04D2C8 !important;
+    color: #00D135;
+    border: 1px solid #00D135 !important;
     @include border-radius(30px);
     border: 1px solid transparent;
     display: inline-block;
     @include transition(.3s);
     &:hover{
         color: #fff !important;
-        background: #04D2C8 !important;
+        background: #00D135 !important;
     }
 }
 

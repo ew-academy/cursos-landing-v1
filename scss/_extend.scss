@@ -26,5 +26,14 @@ display: flex;
     background: -webkit-linear-gradient(left,  #a64eee 0%,#3c35ce 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right,  #a64eee 0%,#3c35ce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a64eee', endColorstr='#3c35ce',GradientType=1 ); /* IE6-9 */
+}
+
+%gradient_bg_3{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a64eee+0,3c35ce+100 */
+    background: #76de42; /* Old browsers */
+    background: -moz-linear-gradient(left,  #76de42 0%, #3c35ce 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #76de42 0%,#3c35ce 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #76de42 0%,#3c35ce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76de42', endColorstr='#3c35ce',GradientType=1 ); /* IE6-9 */
 
 }

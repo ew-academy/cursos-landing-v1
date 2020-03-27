@@ -14,8 +14,8 @@
         }
     }
     @media #{$mobile_device} {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
     @media #{$tablet_device} {
         padding-top: 60px;
@@ -65,7 +65,7 @@
                 }
                 a{
                     &:hover{
-                        color: #FDAE5C;
+                        color: #00D135;
                     }
                 }
             }
@@ -75,7 +75,7 @@
                 .star{
                     i{
                         font-size: 16px;
-                        color: #FD8E5E;
+                        color: #00D135;
     
                     }
                     span{
@@ -141,7 +141,7 @@
 
                         &::before{
                             content: "";
-                            background: #04D2C8;
+                            background: #00D135;
                             width: 100%;
                             height: 3px;
                             bottom: 0;

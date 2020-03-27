@@ -1,7 +1,7 @@
 .about_area{
     padding: 200px 0 270px 0;
     @media #{$mobile_device} {
-        padding: 100px 0;
+        padding: 50px 0;
     }
     @media #{$tablet_device} {
         padding: 100px 0;
@@ -15,6 +15,7 @@
             font-size: 46px;
             line-height: 56px;
             font-weight: 400;
+            color: #272727;
             @media #{$mobile_device}{
                 font-size: 25px;
                 line-height: 32px;
@@ -69,8 +70,7 @@
             
             @media #{$mobile_device} {
                 position: static;
-                margin-top: 30px;
-                
+                margin-top: 100px;
             }
             @media #{$tablet_device} {
                 position: static;
@@ -86,8 +86,8 @@
                 text-align: center;
                 position: relative;
                 @media #{$mobile_device} {
-                    width: 290px;
-                    height: 290px;
+                    width: 270px;
+                    height: 270px;
                     margin: auto;
                 }
                 @media #{$tablet_device} {
@@ -100,7 +100,7 @@
                     content: "";
                     width: 100%;
                     height: 100%;
-                    background: #FD8E5E;
+                    background: #05ef06;
                     border-radius: 50%;
                     opacity: .7;
                     left: 0;
@@ -141,7 +141,7 @@
                     content: "";
                     width: 100%;
                     height: 100%;
-                    background: #5DB2FF;
+                    background: #05ef06;
                     border-radius: 50%;
                     opacity: .7;
                     left: 0;
@@ -182,7 +182,7 @@
                     content: "";
                     width: 100%;
                     height: 100%;
-                    background: #04D2C8;
+                    background: #05ef06;
                     border-radius: 50%;
                     opacity: .7;
                     left: 0;

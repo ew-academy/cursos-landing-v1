@@ -1,5 +1,6 @@
 .slider_bg_1{
-    background-image: url(../img/banner/banner.png);
+    // background-image: url(../img/banner/banner.png);
+    background: #272727;
 }
 .slider_area{
     .single_slider{
@@ -42,8 +43,8 @@
                font-size: 24px;
                letter-spacing: 0px;
                line-height: 35px;
-               margin-top: 0;
-               margin-bottom: 0;
+               margin-top: 20px;
+               margin-bottom: 30px;
             }
              @media #{$tablet_device} {
                font-size: 30px;

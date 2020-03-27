@@ -1,10 +1,11 @@
 .courses_details_banner{
-    background-image: url(../img/banner/bradcam2.png);
-    padding-top: 286px;
-    padding-bottom: 186px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    // background-image: url(../img/banner/bradcam2.png);
+    background: #272727;
+    padding-top: 186px;
+    padding-bottom: 100px;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
     @media #{$mobile_device}{
         padding-top: 150px;
         padding-bottom: 150px;
@@ -35,14 +36,14 @@
                     margin-right: 50px;
                 }
                 &.active{
-                    color: #04D2C8;
+                    color: #00D135;
                 }
             }
         }
         .rating{
             margin: 16px 0 15px 0;
             i{
-                color: #FD8E5E;
+                color: #00D135;
                 font-size: 17px;
             }
             span{
@@ -93,6 +94,9 @@
             line-height: 21px;
             margin-bottom: 0;
         }
+        @media #{$mobile_device} {
+            padding: 10px;
+        }
     }
     .courses_sidebar{
         position: relative;
@@ -119,7 +123,7 @@
                 left: 50%;
                 top: 50%;
                 @include transform(translate(-50%,-50%));
-                background: #FD8E5E;
+                background: #00D135;
                 width: 90px;
                 height: 90px;
                 color: #fff;
@@ -164,7 +168,7 @@
                         color: #D1D1D1;
                         margin-right: 17px;
                         &:hover{
-                            color: #04D2C8;
+                            color: #00D135;
                         }
                     }
                 }
@@ -197,7 +201,7 @@
             }
             i{
                 font-size: 20px;
-                color: #FEAE5C;
+                color: #00D135;
             }
             textarea{
                 margin-top: 15px;
