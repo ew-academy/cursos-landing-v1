@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700|Poppins:200,300,400,500,500i,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700|Poppins:200,300,400,500,500i,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,7 +20,7 @@
 /* Large Mobile :480px. */
 /* 1. Theme default css */
 body {
-  font-family: "Poppins", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal; }
 
@@ -56,7 +58,7 @@ button {
   outline: medium none; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #2E004B; }
 
 h1 a,
@@ -80,7 +82,7 @@ p {
   line-height: 28px;
   color: #919191;
   margin-bottom: 13px;
-  font-family: "Poppins", serif; }
+  font-family: "Roboto", sans-serif; }
 
 label {
   color: #7e7e7e;
@@ -249,7 +251,7 @@ h3 {
   color: #00D135;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -273,7 +275,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 12px 27px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: 0;
@@ -300,7 +302,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -450,7 +452,7 @@ h3 {
 
 .section_title p {
   font-size: 17px;
-  font-family: "Poppins", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 28px;
   color: #727272;
@@ -653,7 +655,7 @@ h3 {
           font-weight: 400;
           display: inline-block;
           padding: 34px 0;
-          font-family: "Poppins", sans-serif;
+          font-family: "Roboto", sans-serif;
           position: relative;
           text-transform: capitalize; }
           @media (min-width: 992px) and (max-width: 1200px) {
@@ -1476,7 +1478,7 @@ h3 {
     .subscribe_newsletter .newsletter_form .newsletter_form input::placeholder {
       font-size: 16px;
       font-weight: 400;
-      font-family: "Poppins", serif;
+      font-family: "Roboto", sans-serif;
       color: #919191; }
   .subscribe_newsletter .newsletter_form .newsletter_form button {
     background: #FD8E5E;
@@ -1720,7 +1722,7 @@ h3 {
       z-index: 10; }
       .our_team_member .single_team .master_name h3 {
         font-size: 24px;
-        font-family: "Poppins", sans-serif;
+        font-family: "Roboto", sans-serif;
         color: #1F1F1F;
         font-weight: 400;
         margin-top: 25px;
@@ -1824,7 +1826,7 @@ h3 {
     color: #fff;
     line-height: 56px;
     font-weight: 400;
-    font-family: "Poppins", sans-serif; }
+    font-family: "Roboto", sans-serif; }
     @media (max-width: 767px) {
       .courses_details_banner .course_text h3 {
         font-size: 30px;
@@ -1832,7 +1834,7 @@ h3 {
   .courses_details_banner .course_text .prise span {
     font-size: 30px;
     font-weight: 400;
-    font-family: "Poppins", sans-serif; }
+    font-family: "Roboto", sans-serif; }
     @media (max-width: 767px) {
       .courses_details_banner .course_text .prise span {
         font-size: 20px; } }
@@ -1860,7 +1862,7 @@ h3 {
     font-size: 18px;
     padding-left: 14px;
     font-weight: 400;
-    font-family: "Poppins", sans-serif; }
+    font-family: "Roboto", sans-serif; }
 
 .courses_details_info {
   padding-top: 100px;
@@ -1955,13 +1957,13 @@ h3 {
         font-size: 18px;
         color: #1F1F1F;
         font-weight: 400;
-        font-family: "Poppins", sans-serif;
+        font-family: "Roboto", sans-serif;
         margin-bottom: 27px; }
       .courses_details_info .courses_sidebar .feedback_info p {
         font-size: 14px;
         color: #1F1F1F;
         font-weight: 400;
-        font-family: "Poppins", sans-serif;
+        font-family: "Roboto", sans-serif;
         margin-bottom: 0; }
       .courses_details_info .courses_sidebar .feedback_info i {
         font-size: 20px;
@@ -1969,13 +1971,13 @@ h3 {
       .courses_details_info .courses_sidebar .feedback_info textarea {
         margin-top: 15px;
         border: 1px solid #E8E8E8;
-        font-family: "Poppins", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-size: 17px;
         padding: 15px;
         margin-bottom: 30px;
         width: 100%; }
         .courses_details_info .courses_sidebar .feedback_info textarea::placeholder {
-          font-family: "Poppins", sans-serif;
+          font-family: "Roboto", sans-serif;
           font-size: 17px; }
 
 .testimonial_bg_1 {
@@ -1992,7 +1994,7 @@ h3 {
     font-size: 24px;
     color: #fff;
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 34px;
     margin-top: 26px;
     margin-bottom: 22px; }
@@ -2057,11 +2059,11 @@ h3 {
       .popular_courses .single_courses .courses_info span {
         font-size: 14px;
         color: #4D4D4D;
-        font-family: "Poppins", sans-serif; }
+        font-family: "Roboto", sans-serif; }
       .popular_courses .single_courses .courses_info h3 {
         font-size: 18px;
         color: #1F1F1F;
-        font-family: "Poppins", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         line-height: 28px;
         margin-top: 11px;
@@ -2120,7 +2122,7 @@ h3 {
       .popular_courses .course_nav .nav {
         margin-bottom: 30px; } }
     .popular_courses .course_nav .nav li a {
-      font-family: "Poppins", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-weight: 500;
       padding: 30px 0;
       font-size: 16px;
