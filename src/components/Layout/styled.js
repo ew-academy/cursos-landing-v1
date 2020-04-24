@@ -1,10 +1,15 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
-export const Container = styled.div`
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-`
 export const Main = styled.main`
-  flex-grow: 1;
+  ${media.greaterThan('huge')`
+    width: 50%
+  `}
+  ${media.between("large", "huge")`
+   width: 80%
+  `}
+  ${media.lessThan("large")`
+    width: 90%
+  `}
+  margin: auto;
 `

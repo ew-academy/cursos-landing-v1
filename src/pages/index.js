@@ -36,7 +36,6 @@ const cards = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <S.Container>
       <div className="slider">
         <Slider />
       </div>
@@ -70,12 +69,11 @@ const IndexPage = () => (
             matis, aguis e fermentis.
           </p>
           <S.AssignLink>
-            Assinar <ArrowRight size="20" title="assinar" />
+            Cursos <ArrowRight size="20" title="assinar" />
           </S.AssignLink>
         </S.IntroText>
       </S.Intro>
       <Courses />
-    </S.Container>
   </Layout>
 )
 

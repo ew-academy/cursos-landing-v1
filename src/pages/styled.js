@@ -1,17 +1,14 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
+import media from "styled-media-query"
 
-export const Container = styled.main`
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  max-width: 80%;
-  margin: auto;
-`
 export const Cards = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 3em 0;
+  ${media.lessThan("medium")`
+   flex-direction: column;
+  `}
 `
 export const Card = styled.div`
   display: flex;
@@ -20,6 +17,9 @@ export const Card = styled.div`
   padding: 1.5em 2em;
   border-radius: 3px;
   box-shadow: 0 0 1em #ccc;
+  ${media.lessThan("medium")`
+   margin-bottom: 1em;
+  `}
 `
 export const Icon = styled.img`
   width: 40px;
@@ -38,6 +38,9 @@ export const CardDescription = styled.p`
 export const Intro = styled.section`
   display: flex;
   margin-bottom: 3em;
+  ${media.lessThan("medium")`
+   flex-direction: column;
+  `}
 `
 export const IntroVideo = styled.div`
   display: flex;
@@ -47,6 +50,9 @@ export const IntroVideo = styled.div`
   margin-right: 2.5em;
   width: 35%;
   height: 400px;
+  ${media.lessThan("medium")`
+   width: 100%;
+  `}
 `
 export const Player = styled.div`
   width: 80px;
@@ -64,12 +70,15 @@ export const Player = styled.div`
 `
 export const IntroText = styled.div`
   width: 65%;
-
   p {
     font-weight: 300;
     line-height: 1.2;
     margin-bottom: 1em;
   }
+  ${media.lessThan("medium")`
+  margin-top: 0.5em;
+    width: 100%;
+  `}
 `
 export const IntroTextTitle = styled.h3`
   font-size: 2.3rem;

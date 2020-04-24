@@ -1,24 +1,40 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const Courses = styled.section`
   margin-bottom: 3em;
+  ${media.lessThan("medium")`
+    margin-bottom: 1em;
+  `}
+`
+export const TitleSection = styled.p`
+  margin: 3em 0 1em 0;
+  font-size: 1.5rem;
+  ${media.lessThan("medium")`
+    margin-top: 1em;
+  `}
 `
 export const Cards = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  ${media.lessThan("medium")`
+    flex-direction: column;
+  `}
 `
 export const Content = styled.div`
   padding: 0 1em 0em 1em;
   display: flex;
   flex-direction: column;
-  justify-content: end;
 `
 export const Card = styled.div`
   border-radius: 1px;
   box-shadow: 0 0 0.3em #ccc;
-  max-width: 30%;
+  width: 31%;
   margin-bottom: 2em;
+  ${media.lessThan("medium")`
+   width: 100%;
+  `}
 `
 export const Thumbnail = styled.img`
   background-size: cover;
@@ -45,7 +61,7 @@ export const AuthorName = styled.p`
 `
 export const Infos = styled.div`
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   border-top: #ddd solid 1px;
   padding: 0.7em 1em;

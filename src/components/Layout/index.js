@@ -9,12 +9,14 @@ import GlobalStyles from "../../styles/global"
 
 const Layout = ({ children }) => {
   return (
-    <S.Container>
+    <>
+      {/* <S.Container> */}
       <GlobalStyles />
       <Header />
       <S.Main>{children}</S.Main>
       <Footer />
-    </S.Container>
+      {/* </S.Container> */}
+    </>
   )
 }
 

@@ -6,7 +6,7 @@ import brand from "../../images/official-brand.png"
 
 const Header = () => (
   <S.Wrapper>
-    <img src={brand} alt="Brand" style={{width: '10%'}}></img>
+    <S.Brand src={brand} alt="Brand" />
     <S.Navbar>
       {links.map((link, i) => (
         <S.NavLink to={link.url} key={i} activeClassName="active">
