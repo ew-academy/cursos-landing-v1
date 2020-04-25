@@ -4,7 +4,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import Slider from "../components/Slider"
-import * as S from "./styled"
+import * as S from "../styles/home"
 
 // icons
 import startup from "../images/icons/startup.svg"
