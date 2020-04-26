@@ -17,20 +17,15 @@ const Footer = () => (
         />
         <S.ColText>Cursos e treinamentos</S.ColText>
         <S.ColText>
-          EW.IT Erick Wendel - LTDA <br />
-          CNPJ: 00.000.000/0001-00
+          Erick Wendel Gomes da Silva ME <br />
+          CNPJ: 34.267.390/0001-82
         </S.ColText>
       </S.Col>
 
       <S.Col>
         <S.ColTitle>Entre em contato</S.ColTitle>
         <S.ColText>
-          E-mail: contato@ew.it <br />
-          WhatsApp: +55 (11) 92903-9472
-        </S.ColText>
-        <S.ColText>
-          Termos de uso <br />
-          Política de privacidade
+          E-mail: comercial@erickwendel.com.br <br />
         </S.ColText>
       </S.Col>
 
