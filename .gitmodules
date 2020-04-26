@@ -1,0 +1,3 @@
+[submodule "cursos-landing-v1"]
+	path = cursos-landing-v1
+	url = https://github.com/training-erickwendel/cursos-landing-v1.git
