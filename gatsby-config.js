@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Erick Wendel | Treinamentos`,
+    description: `Javascript, Node.js e cloud computing. Aprenda programação de forma divertida e fácil com Erick Wendel`,
+    author: `@erickwendel`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,7 +36,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icons/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icons/ew.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

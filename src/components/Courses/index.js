@@ -3,10 +3,10 @@ import React from "react"
 import * as S from "./styled"
 import { courses } from "./mock"
 
-const Courses = ({}) => (
+const Courses = () => (
   <S.Courses>
     <S.TitleSection>
-      <span>🚀</span> Cursos
+      <span role="img" aria-label="Foguete">🚀</span> Cursos
     </S.TitleSection>
     <S.Cards>
       {courses.map((course, i) => (

@@ -37,6 +37,13 @@ export const ColText = styled.p`
   font-size: 0.8rem;
   color: #c3c3c3;
 `
+export const ColTextIcons = styled.div`
+  display: flex;
+  img {
+    width: 30px;
+    margin-right: 1em;
+  }
+`
 
 export const Copy = styled.p`
   font-size: 0.8rem;

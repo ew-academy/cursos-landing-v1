@@ -1,6 +1,6 @@
 import React from "react"
 
-import Carousel, { Dots } from "@brainhubeu/react-carousel"
+import Carousel from "@brainhubeu/react-carousel"
 import "@brainhubeu/react-carousel/lib/style.css"
 
 import erick from '../../images/slideErick.png'
@@ -16,9 +16,9 @@ const Slider = () => {
       dots
       stopAutoPlayOnHover
     >
-      <img src={aws} style={{ width: "100%" }} />
-      <img src={js} style={{ width: "100%" }} />
-      <img src={erick} style={{ width: "100%" }} />
+      <img src={aws} alt="Amazon Web Services" style={{ width: "100%" }} />
+      <img src={js} alt="JavaScript" style={{ width: "100%" }} />
+      <img src={erick} alt="Erick Wendel" style={{ width: "100%" }} />
     </Carousel>
   )
 }
