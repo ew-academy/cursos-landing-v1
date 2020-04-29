@@ -52,6 +52,10 @@ export const Copy = styled.p`
   color: #c3c3c3;
   text-align: center;
   padding: 0 1em;
+  margin-top: 1em;
+  ${media.lessThan("medium")`
+    padding: 0 2em;
+  `}
 `
 
 export const Link = styled.a`
