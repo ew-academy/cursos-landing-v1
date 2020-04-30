@@ -1,7 +1,8 @@
 import React from "react"
 
+// components
 import * as S from "./styled"
-import links from "../../utils/links"
+import links from "../links"
 import brand from "../../images/official-brand.png"
 
 const Header = () => (

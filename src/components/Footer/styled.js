@@ -8,22 +8,22 @@ export const Footer = styled.footer`
 export const Cols = styled.div`
   display: flex;
   justify-content: space-between;
+  margin: auto;
   ${media.lessThan("medium")`
     flex-direction: column;
   `}
   ${media.greaterThan("huge")`
     width: 50%;
   `}
-  margin: auto;
 `
 
 export const Col = styled.div`
   display: flex;
   flex-direction: column;
+  color: #fff;
   ${media.lessThan("huge")`
     padding: 1em 3em;
   `}
-  color: #fff;
 `
 
 export const ColTitle = styled.p`
@@ -54,7 +54,7 @@ export const Copy = styled.p`
   padding: 0 1em;
   margin-top: 1em;
   ${media.lessThan("medium")`
-    padding: 0 2em;
+    padding: 0 3em;
   `}
 `
 

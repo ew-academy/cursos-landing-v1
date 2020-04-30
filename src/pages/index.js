@@ -1,37 +1,19 @@
 import React from "react"
 
+// @imports
+import PropTypes from "prop-types"
+
 // components
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import Slider from "../components/Slider"
 import * as S from "../styles/home"
+import { infoCards } from "../templates/info-cards"
 
 // icons
-import startup from "../images/icons/startup.svg"
-import terminal from "../images/icons/code-terminal.svg"
-import brain from "../images/icons/brain.svg"
 import { Play } from "@styled-icons/boxicons-regular"
 import { ArrowRight } from "@styled-icons/feather"
 import Courses from "../components/Courses"
-
-// mocks
-const cards = [
-  {
-    icon: startup,
-    title: "Aprenda na prática",
-    description: "Aprenda tão rápido como um foguete!",
-  },
-  {
-    icon: terminal,
-    title: "Code Review",
-    description: "Cursos com direito a code review",
-  },
-  {
-    icon: brain,
-    title: "Divirta-se",
-    description: "Aprenda com muita diversão !",
-  },
-]
 
 const IndexPage = () => (
   <Layout>
@@ -41,7 +23,7 @@ const IndexPage = () => (
     </div>
 
     <S.Cards>
-      {cards.map((card, i) => (
+      {infoCards.map((card, i) => (
         <S.Card key={i}>
           <S.Icon src={card.icon} />
           <S.CardTitle>{card.title}</S.CardTitle>
@@ -76,5 +58,9 @@ const IndexPage = () => (
     <Courses />
   </Layout>
 )
+
+IndexPage.propTypes = {
+  infoCards: PropTypes.array.isRequired,
+}
 
 export default IndexPage

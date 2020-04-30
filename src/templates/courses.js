@@ -1,9 +1,9 @@
-import thumbAws from "../../images/courses/aws.png"
-import thumbJS from "../../images/courses/fundamentosJs.png"
-import thumbKubernetes from "../../images/courses/kubernetes.png"
-import thumbTypescript from "../../images/courses/typescript.png"
-import thumbNode from "../../images/courses/node.png"
-import erick from "../../images/tutors/erick-wendel.png"
+import thumbAws from "../images/courses/aws.png"
+import thumbJS from "../images/courses/fundamentosJs.png"
+import thumbKubernetes from "../images/courses/kubernetes.png"
+import thumbTypescript from "../images/courses/typescript.png"
+import thumbNode from "../images/courses/node.png"
+import erick from "../images/tutors/erick-wendel.png"
 
 export const courses = [
   {

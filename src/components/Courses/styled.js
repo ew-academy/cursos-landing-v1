@@ -42,6 +42,7 @@ export const Thumbnail = styled.img`
 `
 export const Title = styled.p`
   margin: 0.8em 0;
+  line-height: 1.2;
 `
 export const Description = styled.p`
   font-weight: 300;

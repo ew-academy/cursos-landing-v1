@@ -1,7 +1,11 @@
 import React from "react"
 
+// @imports
+import PropTypes from "prop-types"
+
+// components
 import * as S from "./styled"
-import { courses } from "./mock"
+import { courses } from "../../templates/courses"
 
 const Courses = () => (
   <S.Courses>
@@ -40,5 +44,9 @@ const Courses = () => (
     </S.Cards>
   </S.Courses>
 )
+
+Courses.propTypes = {
+  courses: PropTypes.array.isRequired,
+}
 
 export default Courses
