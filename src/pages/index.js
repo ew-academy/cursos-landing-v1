@@ -8,7 +8,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import Slider from "../components/Slider"
 import * as S from "../styles/home"
-import { infoCards } from "../templates/info-cards"
+import { infoCards } from "../mocks/info-cards"
 
 // icons
 import { Play } from "@styled-icons/boxicons-regular"

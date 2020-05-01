@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 
 // components
 import * as S from "./styled"
-import { courses } from "../../templates/courses"
+import { courses } from "../../mocks/courses"
 
 const Courses = () => (
   <S.Courses>
