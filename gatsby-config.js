@@ -9,8 +9,43 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `thumbnails`,
+        path: `${__dirname}/static/assets/img`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/content`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images-v2",
+            options: {
+              nams: "thumbnails",
+            },
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 400,
+              linkImagesToOriginal: false,
+            },
+          },
+          "gatsby-remark-lazy-load",
+        ],
       },
     },
     `gatsby-transformer-sharp`,

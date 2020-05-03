@@ -9,15 +9,21 @@ media_folder: "static/assets/img"
 public_folder: "assets/img"
 
 collections:
-  - name: "courses" # Used in routes, e.g., /admin/collections/blog
-    label: "Courses" # Used in the UI
-    folder: "content" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in front matter
+  - name: "courses"
+    label: "Courses"
+    folder: "content"
+    create: true
+    fields:
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
-      - { label: "Title", name: "title", widget: "string" } 
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Url", name: "url", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Level", name: "level", widget: "select", options: ["Iniciante", "Intermediário", "Avançado"] }
+      - {
+          label: "Level",
+          name: "level",
+          widget: "select",
+          options: ["Iniciante", "Intermediário", "Avançado"],
+        }
       - { label: "Author Image", name: "authorImage", widget: "image" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Price", name: "price", widget: "string" }
