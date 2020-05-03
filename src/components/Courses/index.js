@@ -43,49 +43,56 @@ const Courses = () => {
         Cursos
       </S.TitleSection>
       <S.Cards>
-        {courses.map(
-          ({
-            node: {
-              frontmatter: {
-                url,
-                thumbnail,
-                title,
-                description,
-                authorImage,
-                authorName,
-                level,
-                price,
-                discount,
+        {courses ? (
+          courses.map(
+            (
+              {
+                node: {
+                  frontmatter: {
+                    url,
+                    thumbnail,
+                    title,
+                    description,
+                    authorImage,
+                    author,
+                    level,
+                    price,
+                    discount,
+                  },
+                },
               },
-            },
-          }, i) => (
-            <S.Card key={i}>
-              <a href={url}>
-                <S.Thumbnail src={thumbnail}></S.Thumbnail>
-                <S.Content>
-                  <S.Title>{title}</S.Title>
-                  <S.Description>{description}</S.Description>
-                  <S.Author>
-                    <S.AuthorImage src={authorImage}></S.AuthorImage>
-                    <S.AuthorName>{authorName}</S.AuthorName>
-                  </S.Author>
-                </S.Content>
-                <S.Infos>
-                  <S.Level>{level}</S.Level>
-                  <S.Price>
-                    {courses && discount !== "" ? (
-                      <>
-                        <S.RealPrice>R${price}</S.RealPrice>
-                        <S.Discount>R${discount}</S.Discount>
-                      </>
-                    ) : (
-                      <S.Discount>R${price}</S.Discount>
-                    )}
-                  </S.Price>
-                </S.Infos>
-              </a>
-            </S.Card>
+              i
+            ) => (
+              <S.Card key={i}>
+                <a href={url}>
+                  <S.Thumbnail src={thumbnail}></S.Thumbnail>
+                  <S.Content>
+                    <S.Title>{title}</S.Title>
+                    <S.Description>{description}</S.Description>
+                    <S.Author>
+                      <S.AuthorImage src={authorImage}></S.AuthorImage>
+                      <S.AuthorName>{author}</S.AuthorName>
+                    </S.Author>
+                  </S.Content>
+                  <S.Infos>
+                    <S.Level>{level}</S.Level>
+                    <S.Price>
+                      {courses && discount !== "" ? (
+                        <>
+                          <S.RealPrice>R${price}</S.RealPrice>
+                          <S.Discount>R${discount}</S.Discount>
+                        </>
+                      ) : (
+                        <S.Discount>R${price}</S.Discount>
+                      )}
+                    </S.Price>
+                  </S.Infos>
+                </a>
+              </S.Card>
+            )
           )
+        ) : (
+          <p>Em breve lançaremos novos cursos!</p>
         )}
       </S.Cards>
     </S.Courses>

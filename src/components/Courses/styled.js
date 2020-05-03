@@ -46,6 +46,7 @@ export const Title = styled.p`
 `
 export const Description = styled.p`
   font-weight: 300;
+  line-height: 1.2;
 `
 export const Author = styled.div`
   display: flex;
