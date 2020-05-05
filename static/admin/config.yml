@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: lancaluis/cursos-landing-v1 #mudar para o repo do Erick
+  repo: training-erickwendel/cursos-landing-v1
   branch: v2
-  site_domain: sleepy-carson-9cbe50.netlify.app
+  site_domain: brave-goldwasser-4cac3d.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
