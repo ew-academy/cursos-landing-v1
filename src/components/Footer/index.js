@@ -2,7 +2,7 @@ import React from "react"
 
 // components
 import * as S from "./styled"
-import links from "../../utils/links"
+import links from "../links"
 import brand from "../../images/white-brand.png"
 
 // icons
@@ -59,7 +59,7 @@ const Footer = () => (
     </S.Cols>
     <S.Copy>
       EW.IT &copy; 2020 - All rights reserved. Develop with{" "}
-      <Gatsby size={14} title="Gatsby" /> <Reactjs size={14} title="React" /> by{" "}
+      <Gatsby size={14} title="Gatsby" /><Reactjs size={14} title="React" /> by{" "}
       <a
         href="https://luislanca.com.br"
         style={{ color: "#fff", fontWeight: 700 }}
