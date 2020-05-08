@@ -5,7 +5,7 @@ url: https://serverlessaws.cursos.erickwendel.com.br?origin=CursoErickWendel
 description: Seja um profissional completo em tecnologias cloud computing usando
   a plataforma AWS
 level: Avançado
-authorImage: assets/img/erick-new.jpg
+authorImage: assets/img/erick-new-small.jpg
 author: Erick Wendel
 price: "400"
 discount: 389,90
