@@ -6,16 +6,16 @@ export const infoCards = [
   {
     icon: startup,
     title: "Aprenda na prática",
-    description: "Aprenda tão rápido como um foguete!",
+    description: "Exemplos da vida real e código!",
   },
   {
     icon: terminal,
-    title: "Code Review",
-    description: "Cursos com direito a code review",
+    title: "Aulas gravadas",
+    description: "Assista de onde quiser e quando quiser",
   },
   {
     icon: brain,
     title: "Divirta-se",
-    description: "Aprenda com muita diversão !",
+    description: "Aprenda com muita diversão!",
   },
 ]

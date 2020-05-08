@@ -14,6 +14,7 @@ import hotmart from "../../images/icons/hotmart.svg"
 import paypal from "../../images/icons/paypal.svg"
 import samsungPay from "../../images/icons/samsung-pay.svg"
 
+const YEAR = new Date().getFullYear()
 const Footer = () => (
   <S.Footer>
     <S.Cols>
@@ -58,7 +59,7 @@ const Footer = () => (
       </S.Col>
     </S.Cols>
     <S.Copy>
-      EW.IT &copy; 2020 - All rights reserved. Develop with{" "}
+      EW.IT &copy; {YEAR} - All rights reserved. Develop with{" "}
       <Gatsby size={14} title="Gatsby" /><Reactjs size={14} title="React" /> by{" "}
       <a
         href="https://luislanca.com.br"
