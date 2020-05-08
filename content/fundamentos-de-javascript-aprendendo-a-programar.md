@@ -1,5 +1,5 @@
 ---
-thumbnail: assets/img/facebook_linkedin.png
+thumbnail: assets/img/fundamentosjs.jpeg
 title: Fundamentos de Javascript - Aprendendo a programar
 url: https://fundamentosjs.cursos.erickwendel.com.br?origin=CursoErickWendel
 description: Aprenda Javascript de forma divertida com Erick Wendel
