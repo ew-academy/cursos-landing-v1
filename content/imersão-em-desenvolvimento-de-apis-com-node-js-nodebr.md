@@ -8,6 +8,6 @@ release: 01/01/2002
 level: Intermediário
 authorImage: assets/img/erick-new-small.jpg
 author: Erick Wendel
-price: GRATIS
+price: " "
 discount: GRATIS
 ---
