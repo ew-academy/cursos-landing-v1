@@ -8,4 +8,6 @@ authorImage: assets/img/erick-new-small.jpg
 author: Erick Wendel
 price: 240,00
 discount: 119,90
+release: 01/01/2001
+message: Pré-venda	
 ---
