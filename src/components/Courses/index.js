@@ -11,7 +11,9 @@ const Courses = () => {
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query getCourses {
-        allMarkdownRemark {
+        allMarkdownRemark(
+          sort: { order: DESC, fields: frontmatter___release }
+        ) {
           edges {
             node {
               frontmatter {
@@ -24,6 +26,8 @@ const Courses = () => {
                 price
                 thumbnail
                 title
+                release
+                message
               }
             }
           }
@@ -58,6 +62,7 @@ const Courses = () => {
                     level,
                     price,
                     discount,
+                    message,
                   },
                 },
               },
@@ -66,6 +71,7 @@ const Courses = () => {
               <S.Card key={i}>
                 <a href={url}>
                   <S.Thumbnail src={thumbnail}></S.Thumbnail>
+                  {courses && message && <S.CustomMessage>{message}</S.CustomMessage>}
                   <S.Content>
                     <S.Title>{title}</S.Title>
                     <S.Description>{description}</S.Description>
@@ -77,7 +83,9 @@ const Courses = () => {
                   <S.Infos>
                     <S.Level>{level}</S.Level>
                     <S.Price>
-                      {courses && discount !== "" ? (
+                      {courses && price === "" ? (
+                        <S.Discount>GRÁTIS</S.Discount>
+                      ) : courses && discount !== "" ? (
                         <>
                           <S.RealPrice>R${price}</S.RealPrice>
                           <S.Discount>R${discount}</S.Discount>

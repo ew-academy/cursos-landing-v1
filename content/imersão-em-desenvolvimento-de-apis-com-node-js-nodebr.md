@@ -6,6 +6,8 @@ description: Aquele treinamento feito pela comunidade, para a comunidade!
 level: Intermediário
 authorImage: assets/img/erick-new-small.jpg
 author: Erick Wendel
-price: 999,99
-discount: GRATIS
+price: 500,00
+discount: ''
+release: 01/01/2002
+message: Pré-venda
 ---

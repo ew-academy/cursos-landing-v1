@@ -85,3 +85,10 @@ export const RealPrice = styled.p`
   margin-right: 0.5em;
   font-size: 0.9rem;
 `
+export const CustomMessage = styled.p`
+  background: #00d138;
+  padding: 0.3rem 0.5rem;
+  color: #fff;
+  margin-top: 0.3rem;
+  display: inline-block;
+`
