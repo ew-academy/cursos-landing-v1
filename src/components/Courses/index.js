@@ -83,7 +83,7 @@ const Courses = () => {
                   <S.Infos>
                     <S.Level>{level}</S.Level>
                     <S.Price>
-                      {courses && price === "" ? (
+                      {courses && price === "" && discount === "" ? (
                         <S.Discount>GRÁTIS</S.Discount>
                       ) : courses && discount !== "" ? (
                         <>
