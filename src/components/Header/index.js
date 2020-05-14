@@ -14,7 +14,7 @@ const Header = () => (
           {link.label}
         </S.NavLink>
       ))}
-      <S.NavLinkBtn href="https://erickwendel.com/">Blog</S.NavLinkBtn>
+      <S.NavLinkBtn href="https://erickwendel.com/" target="__blank">Blog</S.NavLinkBtn>
     </S.Navbar>
   </S.Wrapper>
 )
