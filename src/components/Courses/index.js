@@ -69,17 +69,28 @@ const Courses = () => {
               i
             ) => (
               <S.Card key={i}>
-                <a href={url}>
-                  <S.Thumbnail src={thumbnail}></S.Thumbnail>
-                  {courses && message && <S.CustomMessage>{message}</S.CustomMessage>}
-                  <S.Content>
-                    <S.Title>{title}</S.Title>
-                    <S.Description>{description}</S.Description>
-                    <S.Author>
-                      <S.AuthorImage src={authorImage}></S.AuthorImage>
-                      <S.AuthorName>{author}</S.AuthorName>
-                    </S.Author>
-                  </S.Content>
+                <S.CardLink href={url}>
+                  <div>
+                    <div
+                      style={{
+                        width: "100%",
+                        height: "220px",
+                      }}
+                    >
+                      <S.Thumbnail src={thumbnail}></S.Thumbnail>
+                    </div>
+                    {courses && message && (
+                      <S.CustomMessage>{message}</S.CustomMessage>
+                    )}
+                    <S.Content>
+                      <S.Title>{title}</S.Title>
+                      <S.Description>{description}</S.Description>
+                      <S.Author>
+                        <S.AuthorImage src={authorImage}></S.AuthorImage>
+                        <S.AuthorName>{author}</S.AuthorName>
+                      </S.Author>
+                    </S.Content>
+                  </div>
                   <S.Infos>
                     <S.Level>{level}</S.Level>
                     <S.Price>
@@ -95,7 +106,7 @@ const Courses = () => {
                       )}
                     </S.Price>
                   </S.Infos>
-                </a>
+                </S.CardLink>
               </S.Card>
             )
           )

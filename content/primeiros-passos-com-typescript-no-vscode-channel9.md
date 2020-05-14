@@ -1,5 +1,5 @@
 ---
-thumbnail: assets/img/typescript-vscode.png
+thumbnail: assets/img/facebook_linkedin.png
 title: Primeiros passos com TypeScript no VSCode - Channel9
 url: https://channel9.msdn.com/blogs/DX/Primeiros-passos-com-TypeScript-no-Visual-Studio-Code
 description: Aprenda TypeScript no VSCode com Node.js

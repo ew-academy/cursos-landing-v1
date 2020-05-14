@@ -6,7 +6,7 @@ description: Aquele treinamento feito pela comunidade, para a comunidade!
 message: " "
 release: 03/03/2020
 level: Intermediário
-authorImage: assets/img/erick-new-small.jpg
+authorImage: assets/img/erick-new.jpg
 author: Erick Wendel
 price: "  "
 discount: " "
