@@ -10,5 +10,5 @@ level: Avançado
 authorImage: assets/img/erick-new-small.jpg
 author: Erick Wendel
 price: 400,00
-discount: 389,00
+discount: 399,90
 ---
