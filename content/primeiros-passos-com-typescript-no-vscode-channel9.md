@@ -7,8 +7,8 @@ description: Seja um profissional completo em tecnologias cloud computing usando
 level: Iniciante
 authorImage: assets/img/erick-new-small.jpg
 author: Erick Wendel
-price: ''
-discount: ''
+price: ""
+discount: ""
 release: 01/01/2004
-message: 
+message: ""
 ---
