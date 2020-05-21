@@ -7,4 +7,7 @@ release: 02/02/2020
 level: Intermediário
 authorImage: assets/img/erick-new.jpg
 author: Erick Wendel
+price: ''
+discount: ''
+message: ''
 ---
