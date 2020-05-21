@@ -1,0 +1,56 @@
+backend:
+  name: github
+  repo: training-erickwendel/cursos-landing-v1
+  branch: v2
+  site_domain: brave-goldwasser-4cac3d.netlify.app
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "courses"
+    label: "Courses"
+    folder: "content"
+    create: true
+    fields:
+      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Url", name: "url", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Custom label",
+          name: "message",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Release date",
+          name: "release",
+          widget: "date",
+          default: "",
+          format: "L",
+        }
+      - {
+          label: "Level",
+          name: "level",
+          widget: "select",
+          options: ["Iniciante", "Intermediário", "Avançado"],
+        }
+      - { label: "Author image", name: "authorImage", widget: "image" }
+      - { label: "Author name", name: "author", widget: "string" }
+      - {
+          label: "Original price",
+          name: "price",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Price with discount",
+          name: "discount",
+          widget: "string",
+          required: false,
+          default: "",
+        }
