@@ -1,25 +1,61 @@
 {
-  "name": "cursos-web",
-  "version": "1.0.0",
-  "description": "Thank you for using our template!",
-  "main": "index.js",
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "@brainhubeu/react-carousel": "^1.13.38",
+    "babel-plugin-styled-components": "^1.10.7",
+    "gatsby": "^2.20.12",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-google-analytics": "^2.3.0",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-netlify-cms": "^4.3.0",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-styled-components": "^3.2.1",
+    "gatsby-remark-images": "^3.3.0",
+    "gatsby-remark-lazy-load": "^1.0.2",
+    "gatsby-remark-relative-images-v2": "^0.1.5",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-remark": "^2.8.4",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "lazysizes": "^5.2.0",
+    "netlify-cms-app": "^2.12.11",
+    "netlify-plugin-gatsby-cache": "^0.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.1.0",
+    "styled-icons": "^10.2.1",
+    "styled-media-query": "^2.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch scss -o css"
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "fetch": "git fetch original git rebase original/v2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/training-erickwendel/cursos-landing-v1.git"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/training-erickwendel/cursos-landing-v1/issues"
-  },
-  "homepage": "https://github.com/training-erickwendel/cursos-landing-v1#readme"
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }
