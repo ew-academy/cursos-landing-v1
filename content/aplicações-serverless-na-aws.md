@@ -2,7 +2,7 @@
 thumbnail: assets/img/serverless-aws.png
 title: Aplicações serverless na AWS
 url: https://serverlessaws.cursos.erickwendel.com.br/?origin=CursoErickWendel
-description: Aprenda desde console.log à aplicações completas na Web com Javascript
+description: O treinamento mais completo de aplicações serverless na atualidade.
 message: best-seller
 release: 01/04/2020
 level: Avançado
