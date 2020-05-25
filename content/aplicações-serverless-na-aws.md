@@ -1,5 +1,5 @@
 ---
-thumbnail: assets/img/fundamentosjs-r.jpeg
+thumbnail: assets/img/serverless-aws.png
 title: Aplicações serverless na AWS
 url: https://serverlessaws.cursos.erickwendel.com.br/?origin=CursoErickWendel
 description: Aprenda desde console.log à aplicações completas na Web com Javascript
