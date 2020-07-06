@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: training-erickwendel/cursos-landing-v1
-  branch: v2
-  site_domain: brave-goldwasser-4cac3d.netlify.app
+  repo: lancaluis/cursos-landing-v1
+  branch: master
+  site_domain: mystifying-thompson-3c4e2b.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
