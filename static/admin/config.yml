@@ -2,11 +2,12 @@ backend:
   name: github
   repo: lancaluis/cursos-landing-v1
   branch: master
-  site_domain: mystifying-thompson-3c4e2b.netlify.app
+  site_domain: cms.netlify.com
+  auth_endpoint: auth
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
-public_folder: "assets/img"
+public_folder: ""
 
 collections:
   - name: "courses"
