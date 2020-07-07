@@ -1,0 +1,10 @@
+{
+  "home": {
+    "titlePage": "Erick Wendel | Treinamentos",
+    "introTitle": "Mais de 40.000 pessoas foram treinadas por Erick Wendel",
+    "introText": "Sou conhecido por ser uma pessoa humilde, que veio de um lugar bem pobre em São Paulo e alcancei lugares como Ucrânia, Alemanha, Estados Unidos e mais. Sempre tive a filosofia de compartilhar conhecimento e com isso, fundei a comunidade de software mais popular da América latina e ganhei dois prêmios (que funcionam como um Grammy em Software) o Google Developer Expert (onde existem somente 100 brasileiros, 2000 no mundo) e Microsoft Most Valuable Professional (existem +-200 brasileiros e 4K+ mundo). Lancei um treinamento gratuito completo, para iniciantes, como forma de desafiar os iniciantes que me rendeu uma popularidade gigantesca por apresentar um conteúdo que até então nenhum outro instrutor havia apresentado no Brasil. Hoje vivo como consultor em performance e arquitetura de aplicações focadas em Node.js e plataformas em nuvem, além da criação dos treinamentos online.",
+    "introLink": "Cursos",
+    "infoCardTitle": "Aprenda na prática",
+    "infoCardText": "Exemplos da vida real e código!"
+  }
+}
