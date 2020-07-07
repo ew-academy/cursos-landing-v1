@@ -30,7 +30,7 @@ export const Content = styled.div`
 export const Card = styled.div`
   border-radius: 1px;
   box-shadow: 0 0 0.3em #ccc;
-  width: 31%;
+  width: 30%;
   margin-bottom: 2em;
   ${media.lessThan("medium")`
    width: 100%;
@@ -99,4 +99,5 @@ export const CardLink = styled.a`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 `

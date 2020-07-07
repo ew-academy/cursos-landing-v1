@@ -5,6 +5,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 // components
+import Thumbnail from "../Thumbnail"
+import AuthorImage from "../AuthorImage"
 import * as S from "./styled"
 
 const Courses = () => {
@@ -77,7 +79,7 @@ const Courses = () => {
                         height: "220px",
                       }}
                     >
-                      <S.Thumbnail src={thumbnail}></S.Thumbnail>
+                      <Thumbnail filename={thumbnail} alt={title} />
                     </div>
                     {courses && message && (
                       <S.CustomMessage>{message}</S.CustomMessage>
@@ -86,7 +88,7 @@ const Courses = () => {
                       <S.Title>{title}</S.Title>
                       <S.Description>{description}</S.Description>
                       <S.Author>
-                        <S.AuthorImage src={authorImage}></S.AuthorImage>
+                        <AuthorImage filename={authorImage} alt={title} />
                         <S.AuthorName>{author}</S.AuthorName>
                       </S.Author>
                     </S.Content>

@@ -62,8 +62,9 @@ const Footer = () => (
       EW.IT &copy; {YEAR} - All rights reserved. Develop with{" "}
       <Gatsby size={14} title="Gatsby" /><Reactjs size={14} title="React" /> by{" "}
       <a
-        href="https://luislanca.com.br"
+        href="https://luislanca.dev"
         style={{ color: "#fff", fontWeight: 700 }}
+        target="__blank"
       >
         Luís Lança
       </a>
