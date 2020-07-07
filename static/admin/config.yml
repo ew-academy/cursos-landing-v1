@@ -3,6 +3,7 @@ backend:
   repo: training-erickwendel/cursos-landing-v1
   branch: master
   site_domain: brave-goldwasser-4cac3d.netlify.app
+  auth_endpoint: auth
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
