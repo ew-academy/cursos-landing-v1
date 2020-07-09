@@ -66,7 +66,6 @@ const GlobalStyles = createGlobalStyle`
   }
   *{
     box-sizing: border-box;
-    /* outline: solid #f00 1px !important; */
   }
 `
 export default GlobalStyles

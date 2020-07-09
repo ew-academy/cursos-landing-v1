@@ -1,8 +1,23 @@
 {
   "home": {
     "titlePage": "",
+    "titleDescription": "",
     "introTitle": "",
     "introText": "",
     "introLink": ""
+  },
+  "infoCard": {
+    "cardOneTitle": "",
+    "cardOneDescription": "",
+    "cardTwoTitle": "",
+    "cardTwoDescription": "",
+    "cardThreeTitle": "",
+    "cardThreeDescription": ""
+  },
+  "footer": {
+    "title": "",
+    "contact": "",
+    "navigation": "",
+    "paymentsMethod": ""
   }
 }

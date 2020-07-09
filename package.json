@@ -51,7 +51,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "fetch": "git fetch original git rebase original/v2"
+    "fetch": "git fetch original git rebase original/master"
   },
   "repository": {
     "type": "git",

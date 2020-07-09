@@ -6,10 +6,11 @@ export const Wrapper = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 3em;
-  margin-bottom: 2em;
+  width: 90%;
+  padding: 1em 0 2em 0;
+  margin: auto;
   ${media.greaterThan("huge")`
-  width: 55%;
+  width: 50%;
   margin: auto;
   padding: 1em 0 2em 0;
   `}
