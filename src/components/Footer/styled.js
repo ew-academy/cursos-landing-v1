@@ -57,7 +57,6 @@ export const Copy = styled.p`
     padding: 0 3em;
   `}
 `
-
 export const Link = styled.a`
   color: #c3c3c3;
   font-weight: 300;

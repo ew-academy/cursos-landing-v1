@@ -2,21 +2,24 @@ import React from "react"
 
 // components
 import * as S from "./styled"
-import links from "../links"
+import { translate } from "../../i18n/translate"
 import brand from "../../images/official-brand.png"
 
-const Header = () => (
+const Header = ({ t }) => (
   <S.Wrapper>
     <S.Brand src={brand} alt="Brand" />
     <S.Navbar>
-      {links.map((link, i) => (
-        <S.NavLink to={link.url} key={i} activeClassName="active">
-          {link.label}
-        </S.NavLink>
-      ))}
-      <S.NavLinkBtn href="https://erickwendel.com/" target="__blank">Blog</S.NavLinkBtn>
+      <S.NavLink to="/" activeClassName="active">
+        {t("navbar.home")}
+      </S.NavLink>
+      <S.NavLink to="/" activeClassName="active">
+        {t("navbar.courses")}
+      </S.NavLink>
+      <S.NavLinkBtn href="https://erickwendel.com/" target="__blank">
+        Blog
+      </S.NavLinkBtn>
     </S.Navbar>
   </S.Wrapper>
 )
 
-export default Header
+export default translate(Header)

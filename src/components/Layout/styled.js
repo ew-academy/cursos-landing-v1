@@ -6,7 +6,7 @@ export const Main = styled.main`
     width: 50%
   `}
   ${media.between("large", "huge")`
-   width: 80%
+   width: 90%
   `}
   ${media.lessThan("large")`
     width: 90%

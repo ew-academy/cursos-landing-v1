@@ -7,9 +7,10 @@ import { useStaticQuery, graphql } from "gatsby"
 // components
 import Thumbnail from "../Thumbnail"
 import AuthorImage from "../AuthorImage"
+import { translate } from "../../i18n/translate"
 import * as S from "./styled"
 
-const Courses = () => {
+const Courses = ({ t }) => {
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query getCourses {
@@ -46,7 +47,7 @@ const Courses = () => {
         <span role="img" aria-label="Foguete">
           🚀
         </span>{" "}
-        Cursos
+        {t("home.introLink")}
       </S.TitleSection>
       <S.Cards>
         {courses ? (
@@ -124,4 +125,4 @@ Courses.propTypes = {
   courses: PropTypes.array.isRequired,
 }
 
-export default Courses
+export default translate(Courses)
