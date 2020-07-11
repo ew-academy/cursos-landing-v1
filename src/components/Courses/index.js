@@ -72,7 +72,7 @@ const Courses = ({ t }) => {
               i
             ) => (
               <S.Card key={i}>
-                <S.CardLink href={url}>
+                <S.CardLink href={url} target="_blank">
                   <div>
                     <div
                       style={{

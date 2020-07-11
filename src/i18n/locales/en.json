@@ -19,5 +19,9 @@
     "contact": "",
     "navigation": "",
     "paymentsMethod": ""
+  },
+  "navbar": {
+    "home": "",
+    "courses": ""
   }
 }
