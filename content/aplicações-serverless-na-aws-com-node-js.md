@@ -9,6 +9,6 @@ release: 05/17/2020
 level: Avançado
 authorImage: erick-wendel.jpg
 author: Erick Wendel
-price: 499,99
-discount: 399,90
+price: 997,00
+discount: 597,00
 ---
