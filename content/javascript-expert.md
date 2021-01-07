@@ -2,7 +2,7 @@
 thumbnail: logopreto_curso_jsexpert.png
 title: Javascript Expert
 url: https://javascriptexpert.com.br/
-description: Javascript para devs plenos e seniores com foco em especialismo em Javascript!
+description: Seja agora um especialista em Javascript
 message: best-seller
 release: 11/02/2020
 level: Avançado
